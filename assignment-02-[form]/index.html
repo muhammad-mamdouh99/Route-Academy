@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset style="background-color: brown">
+        <legend style="background-color: cornflowerblue">Personal Data</legend>
+        <fieldset style="background-color: orange">
+          <legend style="background-color: steelblue">Your Name</legend>
+          <table>
+            <tbody>
+              <tr>
+                <td><label for="fName">first name</label></td>
+                <td>:</td>
+                <td><input type="text" name="fName" id="fName" /></td>
+              </tr>
+              <tr>
+                <td><label for="lName">last name</label></td>
+                <td>:</td>
+                <td><input type="text" name="lName" id="lName" /></td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+        <br />
+        <br />
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <td><label for="phone">your phone</label></td>
+              <td>:</td>
+              <td><input type="tel" name="phone" id="phone" /></td>
+            </tr>
+            <tr>
+              <td><label for="mail">email</label></td>
+              <td>:</td>
+              <td><input type="email" name="mail" id="mail" /></td>
+            </tr>
+            <tr>
+              <td><label for="pass">password</label></td>
+              <td>:</td>
+              <td><input type="password" name="pass" id="pass" /></td>
+            </tr>
+            <tr>
+              <td><label for="re-pass">re-password</label></td>
+              <td>:</td>
+              <td><input type="password" name="re-pass" id="re-pass" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+        <br />
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">male</label>
+        <br />
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">female</label>
+        <br />
+        <br />
+        <br />
+        <input type="checkbox" name="status" id="student" value="student" />
+        <label for="student">student</label>
+        <br />
+        <input type="checkbox" name="status" id="grad" value="graduate" />
+        <label for="grad">graduated</label>
+        <br />
+        <br />
+        <br />
+        <select name="kind" id="car">
+          <optgroup label="germany">
+            <option>mercedes</option>
+            <option>bmw</option>
+            <option>volkswagen</option>
+          </optgroup>
+          <optgroup label="japan">
+            <option>nissan</option>
+            <option selected>honda</option>
+            <option>lancer</option>
+          </optgroup>
+          <optgroup label="korea" disabled>
+            <option>kia</option>
+            <option>toyota</option>
+            <option>hyundai</option>
+          </optgroup>
+        </select>
+        <br />
+        <button type="submit" style="color: #fff; background-color: black">
+          submit
+        </button>
+        <br />
+        <br />
+        <br />
+      </fieldset>
+    </form>
+  </body>
+</html>
