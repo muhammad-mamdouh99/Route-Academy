@@ -1,0 +1,410 @@
+/* Global Rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin-inline: auto;
+}
+
+.clr-fix {
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alegreya", serif;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+/* End Global Rules */
+
+/* Start Home Section */
+.home {
+  color: #fff;
+  background-image: url("../imgs/drew-coffman-1872.jpg");
+  height: 80vh;
+}
+
+.home .layer {
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home .nav-bar {
+  padding-block: 20px;
+}
+
+.home .nav-bar .logo {
+  float: left;
+}
+
+.home .nav-bar .logo img {
+  width: 200px;
+}
+
+.home .nav-bar .nav-bar-right {
+  float: right;
+}
+
+.home .nav-bar .nav-bar-right ul li {
+  float: left;
+}
+
+.home .nav-bar .nav-bar-right ul li a {
+  display: inline-block;
+  font-size: 20px;
+  padding: 14px;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Alegreya", serif;
+  text-transform: capitalize;
+}
+
+.home .home-content {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.home .home-content .home-heading {
+  font-size: 24px;
+}
+
+.home .home-content h1 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-block: 20px;
+}
+
+.home .home-content .home-desc {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.home .home-content .btn {
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.home .home-content .btn1 {
+  border-color: #8d7756;
+  background-color: #8d7756;
+  margin-right: 10px;
+}
+/* End Home Section */
+
+/* Start Who We Are Section */
+
+.who-we-are {
+  padding-block: 80px;
+}
+
+.who-we-are .left {
+  width: 48%;
+  float: left;
+}
+.who-we-are .left img {
+  width: 100%;
+}
+
+.who-we-are .right {
+  width: 48%;
+  float: right;
+  padding-top: 90px;
+}
+
+.who-we-are .right h2 {
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.who-we-are .right .desc {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-block: 30px;
+}
+
+.who-we-are .right ul li {
+  margin-bottom: 20px;
+}
+
+.who-we-are .right ul li i {
+  color: #8d7756;
+  text-align: center;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  /* vertical-align: middle; */
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.who-we-are .right ul li p {
+  display: inline-block;
+  margin-left: 10px;
+}
+/* End Who We Are Section */
+
+/* Start Our Location Section */
+.our-location {
+  padding-block: 80px;
+  background-color: #f8f8f8;
+}
+
+.our-location .left {
+  width: 48%;
+  float: left;
+  padding-top: 90px;
+}
+
+.our-location .left h2 {
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.our-location .left .desc1,
+.our-location .left .desc2 {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-block: 30px;
+}
+
+.our-location .right {
+  width: 48%;
+  float: right;
+}
+
+.our-location .right img {
+  width: 100%;
+}
+/* End Our Location Section */
+
+/* End Our Baking Section */
+.our-baking {
+  padding-block: 80px;
+  text-align: center;
+}
+
+.our-baking .heading h2 {
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.our-baking .heading p {
+  font-size: 18px;
+  margin-block: 40px;
+}
+
+.our-baking .container .item {
+  width: 33.3333%;
+  float: left;
+  padding: 20px;
+}
+
+.our-baking .container .item img {
+  width: 100%;
+}
+
+.our-baking .container .item h3 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-block: 20px;
+}
+
+.our-baking .container .item p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+/* End Our Location Section */
+
+/* Start contact Section */
+.contact {
+  padding-block: 80px;
+  background-color: #f8f8f8;
+}
+
+.contact .left {
+  width: 48%;
+  float: left;
+  padding-top: 60px;
+}
+
+.contact .left h2 {
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.contact .left p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-block: 20px;
+}
+
+.contact .left .list p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.contact .left .list ul li i {
+  text-align: center;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  background-color: #8d7756;
+}
+
+.contact .left .list ul li p {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.contact .right {
+  width: 48%;
+  float: right;
+}
+
+.contact .right iframe {
+  width: 600px;
+  height: 600px;
+}
+/* End contact Section */
+
+/* Start Data Section */
+.data {
+  padding-block: 80px;
+  background-color: #403d38;
+}
+
+.data .item {
+  width: 25%;
+  float: left;
+  padding: 20px;
+}
+
+.data .item h3 {
+  color: #fff;
+  font-size: 18px;
+  /* font-weight: 300; */
+}
+
+.data .item p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #888;
+}
+
+.data .item ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  margin-block: 10px;
+}
+
+.data .item ul li i {
+  color: #969696;
+  font-size: 12px;
+}
+
+.data .item ul li p {
+  display: inline-block;
+  margin-block: 10px;
+  margin-left: 10px;
+}
+
+.data .item1 p {
+  line-height: 1.5;
+  margin-block: 20px;
+}
+
+.data .item2 ul li:last-child,
+.data .item3 ul li:last-child,
+.data .item4 ul li:last-child {
+  border: none;
+}
+
+.data .item4 ul {
+  position: relative;
+}
+
+.data .item4 ul::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url("../imgs/contact-details-map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+/* End Data Section */
+
+/* Start Footer Section */
+.footer {
+  padding-block: 80px;
+  background-color: #353330;
+}
+
+.footer .content {
+  text-align: center;
+  color: #969696;
+}
+
+.footer .content img {
+  width: 300px;
+  margin-inline: auto;
+}
+
+.footer .content p {
+  margin-block: 30px;
+  font-size: 16px;
+}
+
+.footer .content .icons a {
+  color: #969696;
+  text-decoration: none;
+}
+
+.footer .content .icons i {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #403d38;
+  margin-inline: 3px;
+}
+/* End Footer Section */
